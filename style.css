@@ -1,0 +1,24 @@
+
+img {
+    width: 32px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Edit Task */
+ul li input[type=text] {
+    display:none;
+  }
+  
+  ul li.edit input[type=text] {
+    display:block;
+  }
+  
+  ul li.edit label {
+    display:none;
+  }
